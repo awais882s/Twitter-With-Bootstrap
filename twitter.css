@@ -1,0 +1,19 @@
+.sidebar{
+    display: flex;
+    border: 1px solid black;
+    width: 400px;
+    height: 800px;
+}
+.custom{
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: #0984e3;
+}
+.custom:hover{
+    background-color: #dfe6e9;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
