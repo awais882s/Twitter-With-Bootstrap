@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     />
 
-    <title>Hello, world!</title>
+    <title>Welcome to twitter</title>
     <script
       src="https://kit.fontawesome.com/d767b5fd52.js"
       crossorigin="anonymous"
@@ -91,17 +91,39 @@
                 Profile
               </a>
             </li>
-            <li>
-              <a href="#" class="nav-link link-dark">
-                <i class="fas fa-ellipsis-h customhome"></i>
-                <svg class="bi me-2" width="16" height="16">
-                  <use xlink:href="#grid"></use>
-                </svg>
+            <!-- Default dropup button -->
+            <div class="btn-group dropup">
+              <button
+                type="button"
+                class="custommorebtn"
+                data-bs-toggle="dropdown" 
+                
+              >
+              <i class="fas fa-ellipsis-h elipse"></i>&nbsp;
                 More
-              </a>
-            </li>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Topics</a></li>
+                <li><a class="dropdown-item" href="#">Moments</a></li>
+                <li><a class="dropdown-item" href="#">NewsLetters</a></li>
+                <li><a class="dropdown-item" href="#">Twitter for Professional</a></li>
+                <li><a class="dropdown-item" href="#">Twitter Ads</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Analytics</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Settings and Privacy</a></li>
+                <li><a class="dropdown-item" href="#">Help Center</a></li>
+                <li><a class="dropdown-item" href="#">Display</a></li>
+                <li><a class="dropdown-item" href="#">Keyboard Shorcuts</a></li>
+              </ul>
+            </div>
           </ul>
-          <hr />
+          <br />
+          <button type="button" class="btn btn-primary btn-lg customtweet">
+            Tweet</button
+          ><br /><br /><br />
+
           <div class="dropdown">
             <a
               href="#"
@@ -123,7 +145,7 @@
                 height="32"
                 class="rounded-circle me-2"
               />
-              <strong>mdo</strong>
+              <strong>Muhammad Awais</strong>
             </a>
             <ul
               class="dropdown-menu text-small shadow"
