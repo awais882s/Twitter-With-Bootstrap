@@ -56,3 +56,6 @@
 .elipse{
     margin-left: -60px;
 }
+.dropdown-menu{
+    min-width: 16rem;
+}
