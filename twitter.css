@@ -184,5 +184,17 @@
   margin-left: 5px;
 }
 .saylani{
-  border-radius: 30px;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+.custombtn{
+  font-size: 25px;
+  color: blue;
+  cursor: pointer;
+  margin-left: 100px;
+}
+.custombtn:hover{
+  background-color:#ced6e0 ;
+  height: 100%;
+  border-radius: 50px;
 }
