@@ -165,3 +165,24 @@
 .btn-info:hover{
   color: white;
 }
+#awais882s{
+  display: inline-flex;
+  cursor: pointer;
+}
+.customprofile{
+  cursor: pointer;
+}
+.custommore{
+  cursor:pointer;
+  margin-left: 190px;
+  font-size: large;
+  border-radius: 50px;
+}
+.para1{
+  text-align: justify;
+  font-size: small;
+  margin-left: 5px;
+}
+.saylani{
+  border-radius: 30px;
+}
