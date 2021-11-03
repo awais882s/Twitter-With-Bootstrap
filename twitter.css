@@ -150,3 +150,18 @@
   height: 100%;
   border-radius: 50px;
 }
+.customtweetbtn{
+  margin-left: 230px;
+  border-radius: 50px;
+  color: white;
+  outline: none;
+  border-style: none;
+}
+.customtweetbtn:hover{
+  color: white;
+  outline: none;
+  border-style: none;
+}
+.btn-info:hover{
+  color: white;
+}
