@@ -1,8 +1,44 @@
+.main-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.main {
+  display: flex;
+}
+.center {
+  border: 1px solid black;
+  height: 700px;
+  width: 600px;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.rightbar {
+  border: 1px solid black;
+  width: 372px;
+  height: 700px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-top: 5px;
+}
+
 .sidebar {
   display: flex;
-  /* width: 400px;
-  height: 800px; */
+  border: 1px solid black;
+  width: 350px;
+  height: 700px;
   background-color: white;
+  margin-left: 5px;
+  flex-direction: column;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid black;
+  height: 700px;
+  width: 400px;
 }
 .custom {
   font-size: 40px;
@@ -62,5 +98,55 @@
 .profile:hover {
   background-color: #ced6e0;
   height: 60px;
+  border-radius: 50px;
+}
+#homebtn {
+  display: inline-flex;
+  margin-top: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.customstar {
+  font-size: 30px;
+  margin-left: 450px;
+}
+.customstar:hover{
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: #ced6e0;
+  cursor: pointer;
+
+}
+.img1{
+  margin-left: 15px;
+  
+}
+.form-control{
+  border-color: white;
+  width: 80%;
+  margin-left: 0px;
+  display: inline-flex;
+  outline: none;
+  border-style: none;
+}
+.form-control:focus{
+  border-color: white;
+  box-shadow: 0 0 0 0.25rem #f9fafb;
+
+}
+
+.smallicons{
+  margin-left: 70px;
+}
+.customemojies{
+  font-size: 25px;
+  color: blue;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.customemojies:hover{
+  background-color:#ced6e0 ;
+  height: 100%;
   border-radius: 50px;
 }
