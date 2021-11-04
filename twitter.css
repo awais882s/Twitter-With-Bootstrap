@@ -226,3 +226,20 @@
   margin-right: 5px;
   cursor: pointer;
 }
+/* search button */
+.searchbtn{
+  margin-top: 10px;
+  width: 400px;
+  height: 50px;
+  margin-left: -20px;
+  margin-right: 20px;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  text-indent: 60px;
+ 
+}
+.searchbtn:focus{
+
+  border:1px solid blue;
+
+}
