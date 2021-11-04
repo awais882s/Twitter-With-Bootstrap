@@ -7,27 +7,29 @@
   display: flex;
 }
 .center {
-  border: 1px solid black;
-  height: 700px;
+  /* border: 1px solid black; */
+  height: 1200px;
   width: 600px;
   margin-top: 0px;
   margin-left: 5px;
   margin-top: 3px;
 }
 .rightbar {
+  display: inline-flex;
   border: 1px solid black;
   width: 372px;
   height: 700px;
   margin-left: 5px;
   margin-top: 5px;
   margin-top: 5px;
+  flex-direction: column;
 }
 
 .sidebar {
   display: flex;
-  border: 1px solid black;
-  width: 350px;
-  height: 700px;
+  /* border: 1px solid black; */
+  /* width: 350px;
+  height: 700px; */
   background-color: white;
   margin-left: 5px;
   flex-direction: column;
@@ -90,6 +92,12 @@
 }
 .custommore {
   font-size: 20px;
+}
+.custommore {
+  cursor: pointer;
+  margin-left: 1px;
+  font-size: large;
+  border-radius: 50px;
 }
 
 .custommore:hover {
@@ -172,9 +180,14 @@
 .customprofile{
   cursor: pointer;
 }
+
+.moreoption{
+  margin-left: 190px;
+  cursor: pointer;
+}
 .custommore{
   cursor:pointer;
-  margin-left: 190px;
+  margin-left: 1px;
   font-size: large;
   border-radius: 50px;
 }
@@ -182,10 +195,15 @@
   text-align: justify;
   font-size: small;
   margin-left: 5px;
+  cursor: pointer;
 }
 .saylani{
   border-radius: 20px;
   margin-left: 25px;
+  cursor: pointer;
+}
+.color:hover{
+  background-color: whitesmoke;
 }
 .custombtn{
   font-size: 25px;
@@ -197,4 +215,14 @@
   background-color:#ced6e0 ;
   height: 100%;
   border-radius: 50px;
+}
+
+.ndoption{
+  margin-left: 150px;
+  cursor: pointer;
+}
+.para2{
+  text-align: right;
+  margin-right: 5px;
+  cursor: pointer;
 }
