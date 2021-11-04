@@ -17,7 +17,7 @@
 .rightbar {
   display: inline-flex;
   border: 1px solid black;
-  width: 372px;
+  width: 395px;
   height: 700px;
   margin-left: 5px;
   margin-top: 5px;
@@ -31,7 +31,7 @@
   /* width: 350px;
   height: 700px; */
   background-color: white;
-  margin-left: 5px;
+  margin-left: -15px;
   flex-direction: column;
 }
 .content {
@@ -233,7 +233,7 @@
   height: 50px;
   margin-left: -20px;
   margin-right: 20px;
-  background-color: whitesmoke;
+  background-color: #dcdde1;
   border-radius: 50px;
   text-indent: 60px;
  
@@ -242,4 +242,40 @@
 
   border:1px solid blue;
 
+}
+
+/* trends documentations */
+.formatdocumentations{
+  height:600px ;
+  width: 360px;
+  margin-left: 16px;
+  background-color: whitesmoke;
+  margin-top: -20px;
+  border-radius: 20px;
+}
+.colorbackground:hover{
+  background-color: #ced6e0;
+  cursor: pointer;
+}
+.trnds{
+  display: inline-flex;
+  margin-left: 10px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+.btnsetting{
+  font-size: 25px;
+  margin-left: 140px;
+  cursor: pointer;
+  
+}
+.trendings{
+  /* display: inline-flex; */
+  font-size: medium;
+  margin-left: 10px;
+}
+.moreoptionbtn{
+  display: inline-flex;
+  margin-left: 230px;
+  cursor: pointer;
 }
