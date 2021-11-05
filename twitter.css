@@ -16,7 +16,6 @@
 }
 .rightbar {
   display: inline-flex;
-  border: 1px solid black;
   width: 395px;
   height: 700px;
   margin-left: 5px;
@@ -118,19 +117,17 @@
   font-size: 30px;
   margin-left: 450px;
 }
-.customstar:hover{
+.customstar:hover {
   height: 40px;
   width: 40px;
   border-radius: 50px;
   background-color: #ced6e0;
   cursor: pointer;
-
 }
-.img1{
+.img1 {
   margin-left: 15px;
-  
 }
-.form-control{
+.form-control {
   border-color: white;
   width: 80%;
   margin-left: 0px;
@@ -138,96 +135,95 @@
   outline: none;
   border-style: none;
 }
-.form-control:focus{
+.form-control:focus {
   border-color: white;
   box-shadow: 0 0 0 0.25rem #f9fafb;
-
 }
 
-.smallicons{
+.smallicons {
   margin-left: 70px;
 }
-.customemojies{
+.customemojies {
   font-size: 25px;
   color: blue;
   cursor: pointer;
   margin-left: 15px;
 }
-.customemojies:hover{
-  background-color:#ced6e0 ;
+.customemojies:hover {
+  background-color: #ced6e0;
   height: 100%;
   border-radius: 50px;
 }
-.customtweetbtn{
+.customtweetbtn {
   margin-left: 230px;
   border-radius: 50px;
   color: white;
   outline: none;
   border-style: none;
 }
-.customtweetbtn:hover{
+.customtweetbtn:hover {
   color: white;
   outline: none;
   border-style: none;
 }
-.btn-info:hover{
+.btn-info:hover {
   color: white;
 }
-#awais882s{
+#awais882s {
   display: inline-flex;
   cursor: pointer;
 }
-.customprofile{
+.customprofile {
   cursor: pointer;
 }
 
-.moreoption{
+.moreoption {
   margin-left: 190px;
   cursor: pointer;
 }
-.custommore{
-  cursor:pointer;
+.custommore {
+  cursor: pointer;
   margin-left: 1px;
   font-size: large;
   border-radius: 50px;
 }
-.para1{
+.para1 {
   text-align: justify;
   font-size: small;
   margin-left: 5px;
   cursor: pointer;
 }
-.saylani{
+.saylani {
   border-radius: 20px;
   margin-left: 25px;
   cursor: pointer;
 }
-.color:hover{
+.color:hover {
   background-color: whitesmoke;
 }
-.custombtn{
+.custombtn {
   font-size: 25px;
   color: blue;
   cursor: pointer;
   margin-left: 100px;
 }
-.custombtn:hover{
-  background-color:#ced6e0 ;
+.custombtn:hover {
+  background-color: #ced6e0;
   height: 100%;
   border-radius: 50px;
 }
 
-.ndoption{
+.ndoption {
   margin-left: 150px;
   cursor: pointer;
 }
-.para2{
+.para2 {
   text-align: right;
   margin-right: 5px;
   cursor: pointer;
 }
 /* search button */
-.searchbtn{
+.searchbtn {
   margin-top: 10px;
   width: 400px;
   height: 50px;
@@ -236,46 +232,70 @@
   background-color: #dcdde1;
   border-radius: 50px;
   text-indent: 60px;
- 
 }
-.searchbtn:focus{
-
-  border:1px solid blue;
-
+.searchbtn:focus {
+  border: 1px solid blue;
 }
 
 /* trends documentations */
-.formatdocumentations{
-  height:600px ;
+.formatdocumentations {
+  height: 600px;
   width: 360px;
   margin-left: 16px;
   background-color: whitesmoke;
   margin-top: -20px;
   border-radius: 20px;
 }
-.colorbackground:hover{
+.colorbackground:hover {
   background-color: #ced6e0;
   cursor: pointer;
 }
-.trnds{
+.trnds {
   display: inline-flex;
   margin-left: 10px;
   margin-top: 8px;
   font-weight: bold;
 }
-.btnsetting{
+.btnsetting {
   font-size: 25px;
   margin-left: 140px;
   cursor: pointer;
-  
 }
-.trendings{
+.trendings {
   /* display: inline-flex; */
   font-size: medium;
   margin-left: 10px;
 }
-.moreoptionbtn{
+.moreoptionbtn {
   display: inline-flex;
   margin-left: 230px;
   cursor: pointer;
+}
+/* show more buttons */
+.custommorebtnshowmore {
+  outline: none;
+  text-decoration: none;
+  margin-left: 10px;
+  width: 340px;
+  text-indent: -250px;
+  height: 50px;
+  border-style: none;
+  background-color: transparent;
+  color: #0984e3;
+}
+.custommorebtnshowmore:hover {
+  background-color: #ced6e0;
+}
+.links{
+  display: inline-flex;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+.links:hover{
+  color: black;
+  text-decoration: underline;
+}
+.copyright{
+  display: inline-flex;
 }
